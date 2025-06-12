@@ -58,5 +58,4 @@ A aplicação será iniciada em http://localhost:5173 ou similar, conforme exibi
 
 ## 👥 Integrantes
 
-Bianca Cristina da Silva Barros
-Matrícula: 2222130003
+Bianca Cristina da Silva Barros - 2222130003
