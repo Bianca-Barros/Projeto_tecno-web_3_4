@@ -1,6 +1,6 @@
 # 🎬 Projeto React — Prática Presencial 3 e 4
 
-Aplicação web desenvolvida em React como parte das atividades práticas das aulas 3 e 4 da disciplina **Tecnologias para Web**.
+Aplicação web desenvolvida em React como parte das atividades práticas das aulas da disciplina **Tecnologias para Web**.
 
 ## 📚 Descrição
 
