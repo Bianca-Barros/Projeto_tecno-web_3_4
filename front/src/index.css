@@ -1,0 +1,168 @@
+/* Reset e estrutura base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f5fc;
+  color: #4a235a;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a569bd;
+  color: white;
+  padding: 0 16px;
+  min-height: 60px;
+}
+
+header h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+}
+
+header nav {
+  display: none;
+}
+
+/* Conteúdo principal */
+main {
+  flex: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: #884ea0;
+  margin-bottom: 16px;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  gap: 8px;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+label {
+  font-weight: bold;
+  color: #884ea0;
+}
+
+input, select {
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #d7bde2;
+}
+
+input:focus {
+  border-color: #bb8fce;
+  outline: none;
+}
+
+/* Lista de filmes/contatos */
+.lista-filmes, .lista-contatos {
+  list-style: none;
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin-top: 24px;
+}
+
+.lista-filmes table, .lista-contatos table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.lista-filmes th, .lista-filmes td,
+.lista-contatos th, .lista-contatos td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.lista-filmes th, .lista-contatos th {
+  background-color: #a569bd;
+  color: white;
+}
+
+.lista-filmes tr:hover, .lista-contatos tr:hover {
+  background-color: #f4ecf7;
+}
+
+.cabecalho-lista span {
+  font-weight: bold;
+  color: #884ea0;
+}
+
+.lista-contatos li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+}
+
+/* Botões */
+button {
+  background-color: #884ea0;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-modificar {
+  background-color: #7d3c98;
+}
+
+.btn-remover {
+  background-color: #943126;
+}
+
+/* Mensagem de erro */
+.erro {
+  font-size: 0.9em;
+  color: #c0392b;
+  margin-top: 4px;
+}

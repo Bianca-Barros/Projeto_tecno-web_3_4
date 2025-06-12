@@ -1,0 +1,34 @@
+{
+  "filmes": [
+    {
+      "id": "d001",
+      "titulo": "O Rei Leão",
+      "diretor": "Roger Allers e Rob Minkoff"
+    },
+    {
+      "id": "d002",
+      "titulo": "Frozen: Uma Aventura Congelante",
+      "diretor": "Chris Buck e Jennifer Lee"
+    },
+    {
+      "id": "d003",
+      "titulo": "Moana",
+      "diretor": "Ron Clements e John Musker"
+    },
+    {
+      "id": "d004",
+      "titulo": "Encanto",
+      "diretor": "Jared Bush e Byron Howard"
+    },
+    {
+      "id": "d005",
+      "titulo": "Procurando Nemo",
+      "diretor": "Andrew Stanton"
+    },
+    {
+      "id": "d006",
+      "titulo": "Toy Story",
+      "diretor": "John Lasseter"
+    }
+  ]
+}
