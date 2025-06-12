@@ -47,7 +47,8 @@ npm run dev
 
 A aplicação será iniciada em http://localhost:5173 ou similar, conforme exibido no terminal.
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
+
 - React
 - Vite
 - JavaScript (ES6+)
@@ -55,6 +56,7 @@ A aplicação será iniciada em http://localhost:5173 ou similar, conforme exibi
 - Axios
 - Context API
 
-👥 Integrantes
+## 👥 Integrantes
+
 Bianca Cristina da Silva Barros
 Matrícula: 2222130003
