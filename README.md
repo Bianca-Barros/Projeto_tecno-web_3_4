@@ -8,14 +8,14 @@ Este projeto simula um **catálogo de filmes**, permitindo ao usuário **cadastr
 
 ---
 
-## ✅ Funcionalidades
+## Funcionalidades
 
-- 🔁 **Navegação entre páginas** com rotas dinâmicas  
-- ➕ **Cadastro de filmes** com validação de formulário  
-- 📋 **Listagem dinâmica** com renderização condicional  
-- ✏️ **Edição e remoção** de filmes existentes  
-- 🌐 **Integração com API REST**  
-- 📱 **Layout responsivo e estilização personalizada**
+- **Navegação entre páginas** com rotas dinâmicas  
+- **Cadastro de filmes** com validação de formulário  
+- **Listagem dinâmica** com renderização condicional  
+- **Edição e remoção** de filmes existentes  
+- **Integração com API REST**  
+- **Layout responsivo e estilização personalizada**
 
 ---
 
